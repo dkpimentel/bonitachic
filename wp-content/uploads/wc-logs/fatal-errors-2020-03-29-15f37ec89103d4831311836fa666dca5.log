@@ -1,0 +1,8 @@
+2020-03-29T00:07:16+00:00 CRITICAL Uncaught Error: Call to a member function update_meta() on bool in /var/www/bonitachic.com.br/htdocs/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /var/www/bonitachic.com.br/htdocs/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /var/www/bonitachic.com.br/htdocs/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /var/www/bonitachic.com.br/htdocs/wp-includes/class-wp-hook.php(288): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /var/www/bonitachic.com.br/htdocs/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filt, em /var/www/bonitachic.com.br/htdocs/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php, na linha 259
+
